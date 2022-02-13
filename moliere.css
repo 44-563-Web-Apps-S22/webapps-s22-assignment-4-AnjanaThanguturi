@@ -12,11 +12,15 @@
     font-size: 14;
     color: black;
 }
-.direction:hover{
+.direction{
     font-family: Arial;
     font-size: 11;
     color: black;
-    background-color: blueviolet;
+    background-color: lightskyblue;
+}
+.direction:hover{
+    background-color: blue;
+    color: red;
 }
 .HARPAGON{
     color: red;
@@ -42,6 +46,11 @@
 }
  th:nth-child(n){
      background-color: blue;
+ }
+ .name:hover{
+     text-shadow: 3px 4px 4px purple;
+     border: dotted 3px black;
+     margin-right: 95% ;
  }
 
 
