@@ -1,0 +1,31 @@
+.scene{
+    color: darkmagenta;
+}
+
+.speech{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10;
+    color: black;
+}
+.name{
+    font-family: cursive;
+    font-size: 14;
+    color: black;
+}
+.direction:hover{
+    font-family: Arial;
+    font-size: 11;
+    color: black;
+    background-color: blueviolet;
+}
+.HARPAGON{
+    color: red;
+}
+.CLÉANTE{
+    color: green;
+}
+.LAFLÈCHE{
+    color: blue;
+ }
+
+
