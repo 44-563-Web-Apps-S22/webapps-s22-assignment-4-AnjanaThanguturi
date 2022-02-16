@@ -1,56 +1,97 @@
-.scene{
+.scene {
     color: darkmagenta;
 }
 
-.speech{
+.speech {
     font-family: 'Courier New', Courier, monospace;
     font-size: 10;
     color: black;
 }
-.name{
+
+.name {
     font-family: cursive;
     font-size: 14;
     color: black;
 }
-.direction{
+
+.direction {
     font-family: Arial;
     font-size: 11;
     color: black;
     background-color: lightskyblue;
 }
-.direction:hover{
+
+.direction:hover {
     background-color: blue;
     color: red;
 }
-.HARPAGON{
+
+.HARPAGON {
     color: red;
 }
-.CLÉANTE{
+
+.CLÉANTE {
     color: green;
 }
-.LAFLÈCHE{
+
+.LAFLÈCHE {
     color: blue;
- }
- table,td{
+}
+
+table, td {
     border: 1px solid black;
     color: black;
     text-align: center;
     padding: 5px;
     margin: 10px;
- }
- th{
-     color: white;
- }
- td:nth-child(n){
+}
+
+th {
+    color: white;
+}
+
+td:nth-child(n) {
     background-color: skyblue;
 }
- th:nth-child(n){
-     background-color: blue;
- }
- .name:hover{
-     text-shadow: 3px 4px 4px purple;
-     border: dotted 3px black;
-     margin-right: 95% ;
- }
 
+th:nth-child(n) {
+    background-color: blue;
+}
 
+.name:hover {
+    text-shadow: 3px 4px 4px purple;
+    border: dotted 3px black;
+    margin-right: 95%;
+}
+
+.horizontal-navbar {
+    list-style-type: none;
+    text-align: center;  
+}
+
+.horizontal-navbar a {
+    display: inline-block;
+    padding: 10px;
+    border: solid 3px black;
+    margin: auto;
+    background-color: darkcyan;
+    color: white;
+}
+
+.horizontal-navbar a:hover {
+    background-color: darkslategray;
+}
+
+.right-icon {
+    float: right;
+    margin-bottom: 10px;
+    size:50px;
+    color: cadetblue;
+}
+
+.left-icon {
+    float: right;
+    margin-bottom: 10px;
+    size:50px;
+    color: cadetblue;
+}
