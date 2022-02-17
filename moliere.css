@@ -81,17 +81,3 @@ th:nth-child(n) {
 .horizontal-navbar a:hover {
     background-color: darkslategray;
 }
-
-.right-icon {
-    float: right;
-    margin-bottom: 10px;
-    size:50px;
-    color: cadetblue;
-}
-
-.left-icon {
-    float: right;
-    margin-bottom: 10px;
-    size:50px;
-    color: cadetblue;
-}
